@@ -48,8 +48,8 @@ export class ContentComponent {
 }
 
 interface contentBlock {
-	id: String;
-	type: Number;
-	title: String;
-	texts: String[];
+	id: string;
+	type: number;
+	title: string;
+	texts: string[];
 }

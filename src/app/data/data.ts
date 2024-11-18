@@ -1,59 +1,58 @@
 export const data = [
     {
         "id": "1",
-        "title": "Neymar chega a acordo para retornar ao Santos, diz jornalista",
-        "subtitle": "A rescisão de contrato estaria sendo discutida com o Al-Hilal.",
+        "title": "Jogador X confirma retorno ao Santos após temporada no exterior",
+        "subtitle": "A negociação com o clube europeu está praticamente resolvida.",
         "date": "18/11/2024",
         "isPopular": true,
-        "imageSrc": "https://i0.wp.com/sempresantos.com.br/wp-content/uploads/2024/04/FB_IMG_1711977119330.jpg?resize=1000%2C693&ssl=1",
+        "imageSrc": "...",
         "content": [
             {
                 "id": "1",
                 "type": 1,
-                "title": "Acordo fechado para a volta de Neymar",
+                "title": "Retorno de Jogador X ao Santos",
                 "texts": [
-                    "O Santos tem um acordo fechado para a volta de Neymar, segundo informação do jornalista argentino César Luis Merlo, especializado no mercado de transferências, na manhã deste domingo (17). A rescisão do contrato estaria sendo trabalhada com o Al-Hilal, e a ideia é que o anúncio oficial seja feito após o fim da Série B do Brasileiro, de acordo com o jornalista.",
-                    "A chegada de Neymar em 2025 já era aguardada pelo Santos. A ideia da diretoria do Peixe era repatriar o camisa 10 em julho, assim que o vínculo com a equipe saudita terminasse. Mas a possibilidade de um acordo amigável entre as partes para adiantar a rescisão animou o presidente Marcelo Teixeira à época, que agora vê a oportunidade de contar com Neymar já no início do ano."
+                    "O Santos FC tem um acordo quase fechado para o retorno do atacante Jogador X, após uma temporada no futebol europeu. A rescisão do contrato com o clube europeu está em andamento, e a previsão é de que o anúncio oficial seja feito no início de 2025.",
+                    "O Santos já estava planejando a volta do jogador, que foi uma das estrelas do time antes de sua transferência. Com o fim do contrato no exterior, o clube paulista vê uma excelente oportunidade de trazer Jogador X de volta ao time logo no início do ano."
                 ]
             },
             {
                 "id": "2",
                 "type": 2,
-                "title": "1. Lesão de Neymar",
+                "title": "2. Recuperação física e desempenho esperado",
                 "texts": [
-                    "Além de defender seu clube de formação, Neymar vê no Santos uma oportunidade de retomar seu alto nível de jogo após grave lesão no joelho e, assim, reconquistar uma vaga na Seleção Brasileira para disputar a Copa do Mundo de 2026.",
-                    "Neymar não atuava durante um ano desde a lesão sofrida no dia 17 de outubro de 2023, quando defendia a Seleção Brasileira em duelo contra o Uruguai durante a Data Fifa. Na ocasião, foi constatado um rompimento do ligamento cruzado anterior e do menisco, necessitando de cirurgia."
+                    "Jogador X também vê no Santos uma chance de recuperar sua forma física após uma lesão que o afastou dos campos por vários meses. O objetivo é retomar sua posição na Seleção Brasileira para as próximas competições internacionais.",
+                    "O atacante não jogava desde a lesão sofrida em um amistoso internacional em agosto de 2024, quando sofreu uma entorse no tornozelo direito, o que exigiu uma recuperação cirúrgica."
                 ]
             },
         ]
     },
     {
         "id": "2",
-        "title": "Novo estádio do Santos FC: modernidade e tradição",
-        "subtitle": "Projeto traz arena multiuso com capacidade para mais de 30 mil torcedores.",
+        "title": "Nova Arena do Santos: Uma revolução para o futebol",
+        "subtitle": "Estádio será um marco de inovação e conforto para os torcedores.",
         "date": "18/11/2024",
         "isPopular": true,
-        "imageSrc": "https://a.espncdn.com/photo/2023/0927/r1230478_819x461_16-9.png",
+        "imageSrc": "...",
         "content": [
             {
                 "id": "1",
                 "type": 1,
-                "title": "Visão geral do projeto",
+                "title": "Visão geral do novo estádio",
                 "texts": [
-                    "O novo estádio do Santos FC, a Nova Vila Belmiro, será construído no mesmo local do atual estádio. Com uma capacidade de 30.108 lugares, o projeto alia modernidade e memória afetiva, incluindo imagens de ídolos como Pelé e Neymar.",
-                    "A área total construída será de 71.690,46 m², incluindo espaços comerciais, estacionamento para 576 veículos e um design focado na sustentabilidade e acessibilidade."
+                    "O novo estádio do Santos FC, chamado Arena Peixe, será construído no mesmo local da antiga Vila Belmiro, com capacidade para 32.000 espectadores. O projeto combina tradição e inovação, com uma arquitetura moderna que traz elementos históricos do clube.",
+                    "A área total do projeto será de 80.000 m², incluindo zonas comerciais, estacionamento para mais de 1.000 carros, e infraestrutura sustentável com foco em acessibilidade."
                 ]
             },
             {
                 "id": "2",
                 "type": 2,
-                "title": "Detalhes arquitetônicos e prazos",
+                "title": "Aspectos arquitetônicos e cronograma de obras",
                 "texts": [
-                    "O estádio contará com uma fachada metálica branca, detalhes em dourado e elementos que homenageiam a história do clube, como a figura de Pelé socando o ar e imagens de momentos históricos.",
-                    "O início das obras está previsto para o segundo semestre de 2024, com conclusão estimada entre 24 a 30 meses após o início. A nova arena visa ser um centro multiuso, com eventos esportivos, culturais e comerciais."
+                    "A fachada do estádio será feita de vidro e aço, com detalhes em prata e preta, remetendo à identidade do clube. Elementos como estátuas de ídolos e cenas históricas estarão presentes para homenagear a trajetória do Santos.",
+                    "As obras começam no final de 2024, com previsão de conclusão para 2027. Além de ser um estádio de futebol, a arena será um centro de eventos, com capacidade para shows, exposições e outros eventos culturais."
                 ]
             }
         ]
     }
-    
 ]
