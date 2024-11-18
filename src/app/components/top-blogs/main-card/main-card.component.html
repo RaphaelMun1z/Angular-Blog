@@ -1,0 +1,9 @@
+<div class="main-post" (click)="onCardClick($event)">
+    <div id="image">
+        <img [src]="imageUrl" alt="Post image">
+    </div>
+    <div id="footer">
+        <h2>{{ title }}</h2>
+        <button (click)="onButtonClick($event)">Partida</button>
+    </div>
+</div>
