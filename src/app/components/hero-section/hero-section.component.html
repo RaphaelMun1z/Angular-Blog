@@ -23,9 +23,12 @@
 		</div>
 	</div>
 	<div class="child-container">
-		<img
-		src="https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/grsa9ybqykir/b/portalcbf/o/CYMERA_20241116_203650.jpg"
-		alt="Vila Belmiro"
-		/>
+		<video id="video" controls autoplay muted loop>
+			<source src="santos.mp4" type="video/mp4">
+			Seu navegador não suporta o elemento de vídeo.
+		</video>
 	</div>
+</div>
+<div *ngIf="notStarted" id="pop-up" (click)="playVideo()">
+	<p>Reproduzir vídeo</p>
 </div>

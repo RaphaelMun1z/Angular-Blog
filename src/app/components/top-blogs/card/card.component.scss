@@ -2,8 +2,8 @@
     position: relative;
     display: flex;
     width: 100%;
-    height: 100%;
-    align-items: center;
+    height: auto;
+    align-items: flex-start;
     border-radius: 10px;
     transition: all .3s ease-in-out;
     cursor: pointer;
@@ -30,12 +30,13 @@
     #image{
         position: relative;
         display: flex;
-        width: 240px;
-        height: 240px;
+        width: 25vh;
+        height: 25vh;
         background-color: green;
         overflow: hidden;
         border-radius: 10px;
-        overflow: hidden;
+        aspect-ratio: 1 / 1;
+        min-width: 25vh;
         
         img{
             transition: all .3s ease-in-out;
@@ -51,9 +52,9 @@
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: space-between;
-        width: 70%;
-        height: 100%;
-        padding: 0 1em;
+        width: auto;
+        height: 25vh;
+        padding-left: 1em;
         
         #text{
             position: relative;
@@ -66,14 +67,14 @@
             
             h2{
                 font-weight: 300;
-                font-size: 25pt;
-                line-height: 40px;
+                font-size: 1.5vw;
+                line-height: 2vw;
                 transition: all .1s ease-in-out;
             }
             
             p{
                 font-weight: 400;
-                font-size: 15pt;
+                font-size: 1vw;
                 color: #787676;
             }
         }
