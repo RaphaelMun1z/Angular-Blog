@@ -1,0 +1,4 @@
+<div class="content-block" [ngClass]="[cardType === 1 ? 'type-1' : 'type-2']">
+    <h3>{{ title }}</h3>
+    <p *ngFor="let p of contents">{{ p }}</p>
+</div>

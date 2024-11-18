@@ -1,25 +1,14 @@
 <section class="main-container">
     <div class="content-container">
-        <div class="header">
-            <div id="info">
-                <p>Popular Article</p>
-                <p>17/11/2024</p>
-            </div>
-            <h1>Neymar chega a acordo para retornar ao Santos, diz jornalista</h1>
-            <h5>A rescisão de contrato estaria sendo discutida com o Al-Hilal.</h5>
-        </div>
-        <div class="main-image-container">
-            <img src="https://i0.wp.com/sempresantos.com.br/wp-content/uploads/2024/04/FB_IMG_1711977119330.jpg?resize=1000%2C693&ssl=1" alt="Image">
-        </div>
-        <div class="content-block type-1">
-            <h3>Acordo fechado para a volta de Neymar</h3>
-            <p>O Santos tem um acordo fechado para a volta de Neymar, segundo informação do jornalista argentino César Luis Merlo, especializado no mercado de transferências, na manhã deste domingo (17). A rescisão do contrato estaria sendo trabalhada com o Al-Hilal, e a ideia é que o anúncio oficial seja feito após o fim da Série B do Brasileiro, de acordo com o jornalista.</p>
-            <p>A chegada de Neymar em 2025 já era aguardada pelo Santos. A ideia da diretoria do Peixe era repatriar o camisa 10 em julho, assim que o vínculo com a equipe saudita terminasse. Mas a possibilidade de um acordo amigável entre as partes para adiantar a rescisão animou o presidente Marcelo Teixeira à época, que agora vê a oportunidade de contar com Neymar já no início do ano.</p>
-        </div>
-        <div class="content-block type-2">
-            <h3>1. Lesão de Neymar</h3>
-            <p>Além de defender seu clube de formação, Neymar vê no Santos uma oportunidade de retomar seu alto nível de jogo após grave lesão no joelho e, assim, reconquistar uma vaga na Seleção Brasileira para disputar a Copa do Mundo de 2026.</p>
-            <p>Neymar não atuava durante um ano desde a lesão sofrida no dia 17 de outubro de 2023, quando defendia a Seleção Brasileira em duelo contra o Uruguai durante a Data Fifa. Na ocasião, foi constatado um rompimento do ligamento cruzado anterior e do menisco, necessitando de cirurgia.</p>
-        </div>
+        <app-article-header 
+        [title]="title" 
+        [subtitle]="subtitle" 
+        [date]="date"
+        [isPopular]="isPopular"></app-article-header>
+        <app-article-image [imgSrc]="imageSrc"></app-article-image>
+        <app-article-content-block *ngFor="let block of content"
+        [cardType]="block.type"
+        [title]="block.title" 
+        [contents]="block.texts"></app-article-content-block>
     </div>
 </section>
